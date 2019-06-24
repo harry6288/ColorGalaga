@@ -15,6 +15,8 @@
 		DF0D197B22C107D50002E985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0D197922C107D50002E985 /* Main.storyboard */; };
 		DF0D197D22C107D70002E985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0D197C22C107D70002E985 /* Assets.xcassets */; };
 		DF0D198022C107D70002E985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0D197E22C107D70002E985 /* LaunchScreen.storyboard */; };
+		DF978E0222C177F8008402B3 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF978E0122C177F8008402B3 /* GameOverScene.swift */; };
+		DF978E0422C17B07008402B3 /* WinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF978E0322C17B07008402B3 /* WinScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		DF0D197C22C107D70002E985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF0D197F22C107D70002E985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF0D198122C107D70002E985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF978E0122C177F8008402B3 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		DF978E0322C17B07008402B3 /* WinScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		DF0D196E22C107D50002E985 /* ColorGalaga */ = {
 			isa = PBXGroup;
 			children = (
+				DF978E0122C177F8008402B3 /* GameOverScene.swift */,
+				DF978E0322C17B07008402B3 /* WinScene.swift */,
 				DF0D196F22C107D50002E985 /* AppDelegate.swift */,
 				DF0D197122C107D50002E985 /* GameScene.sks */,
 				DF0D197322C107D50002E985 /* Actions.sks */,
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF0D197622C107D50002E985 /* GameScene.swift in Sources */,
+				DF978E0422C17B07008402B3 /* WinScene.swift in Sources */,
 				DF0D197822C107D50002E985 /* GameViewController.swift in Sources */,
+				DF978E0222C177F8008402B3 /* GameOverScene.swift in Sources */,
 				DF0D197022C107D50002E985 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
